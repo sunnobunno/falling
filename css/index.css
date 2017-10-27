@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+html {
+    background: black;
+    height: 2590px;
+}
+
+img {
+    image-rendering: -o-crisp-edges;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: pixelated;
+}
+
+#body {
+    width: 100%;
+}
+
+#bg {
+    position: absolute;
+    width: 660px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#falling {
+    position: fixed;
+    width: 130px;
+    top: 100px;;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+#lost1 {
+    position: fixed;
+    width: 70px;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-400px)
+}
+
+#lost2 {
+    position: fixed;
+    width: 70px;
+    top: 1800px;
+    left: 50%;
+    transform: translate(400px);
+}
+
+#no1 {
+    position: fixed;
+    width: 70px;
+    left: 50%;
+    top: 700px;
+    transform: translate(-150px);
+}
+
+#no2 {
+    position: fixed;
+    width: 70px;
+    left: 50%;
+    top: 1000px;
+    transform: translate(200px);
+}
+
+#no3 {
+    position: fixed;
+    width: 70px;
+    left: 50%;
+    top: 1600px;
+    transform: translate(60px);
+}
+
+#debug {
+    position: fixed;
+    color: white;
+}
